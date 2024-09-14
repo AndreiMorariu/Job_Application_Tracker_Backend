@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Confirmation Successful</title>
+	</head>
+	<body style="margin: 0; font-family: sans-serif; height: 100dvh">
+		<div
+			style="
+				display: flex;
+				flex-direction: column;
+				position: relative;
+				height: 100%;
+			"
+		>
+			<div style="flex: 1; background-color: #3b82f6; z-index: -1"></div>
+			<div style="flex: 1; background-color: white; z-index: -1"></div>
+			<div
+				style="
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					width: 100%;
+					max-width: 32rem;
+					transform: translate(-50%, -50%);
+					background-color: white;
+					padding: 3rem;
+					display: flex;
+					flex-direction: column;
+					box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+					border-radius: 0.5rem;
+				"
+			>
+				<div
+					style="
+						text-align: center;
+						color: #3b82f6;
+						font-weight: bold;
+						font-size: 1.125rem;
+						margin-bottom: 1rem;
+					"
+				>
+					Application Tracker
+				</div>
+				<h1 style="font-size: 1.5rem; text-align: center; margin-bottom: 1rem">
+					Email Confirmed
+				</h1>
+
+				<p style="margin-bottom: 2rem; text-align: center">
+					Hey there,<br /><br />
+					Your email has been successfully confirmed! Thank you for verifying
+					your email address. You can now proceed to use The App.
+				</p>
+
+				<a
+					href="https://job-application-tracker-frontend.vercel.app/"
+					style="
+						display: block;
+						width: 100%;
+						background-color: #3b82f6;
+						color: white;
+						padding: 1rem;
+						font-size: 1.125rem;
+						font-weight: bold;
+						border-radius: 0.5rem;
+						transition: background-color 0.3s;
+						text-align: center;
+						text-decoration: none;
+						margin-bottom: 1rem;
+					"
+					target="_blank"
+					onmouseover="this.style.backgroundColor='#2563eb'"
+					onmouseout="this.style.backgroundColor='#3b82f6'"
+				>
+					GO TO THE APP
+				</a>
+
+				<p style="margin-top: 1rem; text-align: center">
+					Keep Rockin'!<br />
+					Your Application Tracker team
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
